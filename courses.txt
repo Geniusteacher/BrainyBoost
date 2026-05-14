@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Brainy Boost</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f8f9fa; }
+    header, nav, footer { same as index.html above }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    .section { background: white; margin: 20px 0; padding: 40px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    .courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+    .card { border: 1px solid #ddd; padding: 25px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+  <header style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; padding: 50px 20px; text-align: center;">
+    <h1>Our Courses</h1>
+  </header>
+
+  <nav style="background: #1e3a8a; padding: 15px;">
+    <div class="container">
+      <a href="index.html" style="color:white; margin:0 15px; text-decoration:none;">Home</a>
+      <a href="courses.html" style="color:white; margin:0 15px; text-decoration:none;">Courses</a>
+      <a href="about.html" style="color:white; margin:0 15px; text-decoration:none;">About</a>
+      <a href="contact.html" style="color:white; margin:0 15px; text-decoration:none;">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h2>Classes 1 to 8 - All Subjects</h2>
+      <div class="courses-grid">
+        <div class="card">
+          <h3>Class 1-2</h3>
+          <p>Foundation in Maths, English, EVS & Hindi</p>
+        </div>
+        <div class="card">
+          <h3>Class 3-5</h3>
+          <p>Maths, Science, English, Social Studies</p>
+        </div>
+        <div class="card">
+          <h3>Class 6-8</h3>
+          <p>Advanced Maths, Science, SST, English Grammar & Literature</p>
+        </div>
+      </div>
+      <br>
+      <p><strong>Want to start? Send us a message!</strong></p>
+      <button onclick="window.location.href='contact.html'">Enquire Now</button>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:30px; background:#1e2937; color:white;">
+    <p>Brainy Boost © 2026 | kshipratutor@gmail.com</p>
+  </footer>
+</body>
+</html>
