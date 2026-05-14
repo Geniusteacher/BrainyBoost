@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Brainy Boost</title>
+  <style> /* Same styles */ </style>
+</head>
+<body>
+  <!-- Copy header and nav from index.html -->
+
+  <div class="container">
+    <div class="section">
+      <h2>Get in Touch</h2>
+      <p><strong>Email:</strong> <a href="mailto:kshipratutor@gmail.com">kshipratutor@gmail.com</a></p>
+      <p>Send us your child's class, subjects, and preferred timings. We'll get back to you within 24 hours.</p>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:30px; background:#1e2937; color:white;">
+    <p>Brainy Boost © 2026</p>
+  </footer>
+</body>
+</html>
